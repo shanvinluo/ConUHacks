@@ -1,0 +1,104 @@
+
+<html>
+<head> <title> WiseWallet </title> </head>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Financial Breakdown">Financial Breakdown</a></li>
+        <li><a href="#Filters">Filters</a></li>
+        <li><a href="#About WiseWallet">About WiseWallet</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+      <section id="Home"><div>
+          <h1>Home</h1>
+<body>
+<h2> Example of how the front end of our app will look</h2>
+<div>
+<img src = "invoiceCONU.png" alt="invoice example"width = “50” height = “100” align = “CENTER”/>
+ </div>
+    <h2> Example of the breakdown of an invoice</h2>
+    <h3> East-West Repair (01/17/2021)</h3>
+        <p>
+1 TV Set  1233.89 1233.89</p>
+    <p>2 Cable Wire 23.34 46.68</p>
+    <p>100 electronics Parts 23.89 2388.9</p>
+    <p>2 TV Stand 100.78 201.56
+</p>
+        <p><i>Total Spent at <b>"East-West Repair:"     4180.82</b></i></p>
+    <p><strong>Total spent on:</strong></p>
+    <p><i>Electronics:    </i>4180.82</p>
+    <img src = "walmart.png" alt="receipt example"width = “50” height = “100” align = “CENTER”/>
+    <h2> Example of the breakdown of a receipt</h2>
+    <h3> Walmart (01/22/2023)</h3>
+        <p>
+Coke 1.00</p>
+    <p>Ramen Pack 2.99</p>
+    <p>earbuds 15.99</p>
+    <p>Conditionner
+</p>
+    <p>T-Shirt 0.00</p>
+        <p><i>Total (After tax) Spent at <b>"Walmart"    20.13</b></i></p>
+    <p><strong>Total (After tax) spent on:</strong></p>
+    <p><i>Food:    </i>3.44</p>
+     <p><i>electronics:    </i>18.39</p>
+     <p><i>Drinks:    </i>1.15</p>
+     <p><i>Clothes:    </i>0.00</p>
+     <p><i>Essential products (Customized by the user):    </i>0.00</p>
+          </body>
+          </div></section>
+    <section id="Financial Breakdown">
+        <h1>Financial Breakdown</h1>
+        <div>
+        <h2><i>Amount spent on:</i></h2>
+        <p>electronics: 4199.12</p>
+         <p><i>Drinks:    </i>1.15</p>
+        <p><i>Food:    </i>3.44</p>
+             <p><i>Clothes:    </i>0.00</p>
+             <p><i>Essential products (Customized by the user):    </i>0.00</p>
+             <h2><i>Amount spent during:</i></h2>
+            <p><i>2021:    </i>4180.82</p>
+             <p><i>2023:    </i>20.13</p>
+            <p><i>Last month:    </i>20.13</p>
+              <p><i>Today:    </i>0.00</p>
+        </div>
+    </section>
+    <section id="Filters">:
+        <h1>Filters</h1>
+        <body> When user spends more than <form><input type="text"></form>$ on <label><select> <option value=Food>Food</option><option value=electronics>electronics</option><option value=drinks>drinks</option><option value=clothes>clothes</option><option value="Essential Products">Essential Products</option></select></label> send notification that you are spending over the budget you set for yourself </body>
+    </section>
+    <section id="About WiseWallet">:<body>
+        <h1>About WiseWallet</h1>
+        <h3>Inspiration</h3>
+<p>One of our teammates had been wanting to work on this project for a long time but hadn't had the time to start it. He was annoyed with inputting the expenses on his receipt manually in excel sheets and tired of keeping these receipts whilst also forgetting why they were kept  As soon as this problem was discussed, we knew that it was the project we wanted to tackle during our first hackathon.</p> 
+<h3>What it does</h3>
+        <p>It scans a receipt or uses the picture of a receipt and uses handwriting recognition to recognize the letters, words, and special characters and then creates a breakdown of expenses. Basically with the codes on the receipt we'll be able to classify each expense and distribute these expenses in different categories to see how much was spent on each category per a certain amount of time. For example, a Costco purchase of 9.11$ on ground beef will be classified within the category "food". People will be able to personalize these categories and put on warnings if they want to limit their expenses on a certain category or over a certain period of time. </p>
+<h3>How we built it</h3>
+<p>We compiled data and created a Scanner that will automatically recognize what is written on a receipt and classify it using a back-end that we created with the help of java. We are also using a very basic front-end interface written with React since we weren't very proficient and had no prior knowledge of front-end coding. </p>
+<h3>Challenges we ran into</h3>
+<p>Our project was way more ambitious than we initially thought, so we had to make the project more simple than expected. However, we will present the ideas and solutions that we initially wanted to implement in our presentation and ways that they are achievable to prove that they are realistic.  </p>
+<h3>Accomplishments that we're proud of</h3>
+<p>As first years, we aren't expecting much in terms of competition with people with much more experience than us. However, we are very proud that we pushed through and managed to present our ideas and a product that is working although there is a lot to improve on. </p>
+<h3>What we learned</h3>
+<p>We learned many things as first years in our first hackathon. The workshops provided us with much insight into various topics such as interesting new tools, how it is to live as an engineer, etc. We also managed to learn more about GitHub and React as well as which skills we need to improve on. We also managed to elevate our skills in the coding languages that we were already comfortable in; mostly Java.</p>
+<h3>What's next for WiseWallet</h3>
+<p>Hopefully, we can actually develop this project into an app that will help people with managing their budgets and make it public and accessible to all. </p> </body></section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <footer>
+      <p>Copyright © 2023 WiseWallet</p>
+    </footer>
+    
+    </html>
